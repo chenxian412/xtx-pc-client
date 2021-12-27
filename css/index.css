@@ -1,0 +1,179 @@
+/* 网站入口：xtx-entry */
+.xtx-entry {
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.xtx-entry .container {
+    position: relative;
+    height: 500px;
+    /* ps */
+    background-color: pink;
+}
+
+.xtx-entry .container .category {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 251px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.xtx-entry .category li {
+    position: relative;
+    height: 50px;
+    padding-left: 36px;
+    line-height: 50px;
+}
+
+.xtx-entry .category li:hover {
+    background-color: #27ba9b;
+}
+
+.xtx-entry .category a {
+    color: #fff;
+}
+
+.xtx-entry .category a::after {
+    position: absolute;
+    top: 19px;
+    right: 19px;
+    content: '';
+    width: 6px;
+    height: 11px;
+    background: url(../images/sprites.png) -80px -110px;
+}
+
+.xtx-entry .category span {
+    font-size: 14px;
+}
+
+.xtx-entry .category span:first-child {
+    margin-left: 15px;
+}
+
+.xtx-entry .prev,
+.xtx-entry .next {
+    position: absolute;
+    top: 228px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.xtx-entry .prev {
+    left: 260px;
+    background: rgba(0, 0, 0, .2) url(../images/sprites.png) 15px -60px;
+}
+
+.xtx-entry .next {
+    right: 10px;
+    background: rgba(0, 0, 0, .2) url(../images/sprites.png) -20px -60px;
+}
+
+.xtx-entry .indicator {
+    position: absolute;
+    left: 680px;
+    bottom: 31px;
+    width: 110px;
+    height: 10px;
+    /* ps */
+    /* background-color: palevioletred; */
+}
+
+.xtx-entry .indicator li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    background-color: rgba(255, 255, 255, .43);
+    border-radius: 50%;
+}
+
+.xtx-entry .indicator li:last-child {
+    margin-right: 0;
+}
+
+.xtx-entry .indicator li.active {
+    background-color: #fff;
+}
+
+/* 新鲜好物模块： xtx-new-goods*/
+.xtx-new-goods {
+    height: 520px;
+    /* ps */
+    /* background-color: blueviolet; */
+}
+
+.xtx-new-goods .goods-hd {
+    height: 115px;
+    /* ps */
+    /* background-color: pink; */
+    line-height: 115px;
+}
+
+.xtx-new-goods .goods-hd h2 {
+    height: 115px;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+.xtx-new-goods .goods-hd span {
+    font-size: 16px;
+    color: #999;
+}
+
+.xtx-new-goods .goods-hd a {
+    color: #999;
+}
+
+.xtx-new-goods .goods-hd a::after {
+    display: inline-block;
+    content: '';
+    width: 7px;
+    height: 13px;
+    margin-left: 13px;
+    background: url(../images/sprites.png) 0 -110px;
+    vertical-align: middle;
+}
+
+.xtx-new-goods .goods-list {
+    height: 405px;
+    /* ps */
+    /* background-color: hotpink; */
+}
+
+.xtx-new-goods .goods-list li {
+    float: left;
+    width: 304px;
+    height: 405px;
+    margin-right: 8px;
+    background-color: #f0f9f4;
+    line-height: 1;
+    text-align: center;
+}
+
+.xtx-new-goods .goods-list li:last-child {
+    margin-right: 0;
+}
+
+.xtx-new-goods .goods-list li img {
+    width: 100%;
+}
+
+.xtx-new-goods .goods-list li h3 {
+    height: 40px;
+    margin-top: 22px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.xtx-new-goods .goods-list li p {
+    color: #9a2e1f;
+    font-size: 23px;
+}
+
+.xtx-new-goods .goods-list li span {
+    font-size: 17px;
+}
